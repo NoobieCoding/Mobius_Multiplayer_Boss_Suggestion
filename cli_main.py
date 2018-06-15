@@ -1,6 +1,6 @@
 import data
 import sys
-import json
+import suggestion_system as suggest_sys
 
 # Created by Nuttapong Rojanavanich
 
@@ -32,19 +32,12 @@ except Exception as e:
     print "Error occurred "
     sys.exit(10)
 
-jobsData = {}
-
-try:
-    with open('jobs.json', 'r') as f:
-        jobsData = json.load(f)
-except Exception:
-    print "Can't find json file."
-
 print "Result"
 print "================================================"
 
-allSuggestedJobs = jobsData["suggestion"][selectedElement.lower()+""]
-[selectedRole.lower()+""]
+allSuggestedJobs = (suggest_sys
+                    .get_suggested_jobs_name
+                    (selectedElement, selectedRole))
 for x in allSuggestedJobs:
     print x
 

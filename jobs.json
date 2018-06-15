@@ -3,150 +3,391 @@
 
 		"fire": {
 			"attacker": [
-				"天道士",
-				"ウィッチオリジン",
-				"ギャンブラー",
-				"メロウマーメイド"
+				{
+					"name": "ギャンブラー",
+					"pic": "gambler.jpg"
+				},
+				{
+					"name": "天道士",
+					"pic": "tendoushi.jpg"
+				},
+				{
+					"name": "ウィッチオリジン",
+					"pic": "witch_origin.jpg"
+				},
+				{
+					"name": "メロウマーメイド",
+					"pic": "mellow_mermaid.jpg"
+				}
 			],
 			"breaker": [
-				"マテリアハンター",
-				"軍神"
+				{
+					"name": "軍神",
+					"pic": "gunshin.jpg"
+				},
+				{
+					"name": "マテリアハンター",
+					"pic": "yuffie.jpg"
+				}
 			],
 			"supporter": [
-				"サンタルチア",
-				"シーサイドクイーン"
+				{
+					"name": "シーサイドクイーン",
+					"pic": "seaside_queen.jpg"
+				},
+				{
+					"name": "サンタルチア",
+					"pic": "santa_lucia.jpg"
+				}
 			],
 			"defender": [
-				"伝説のガード",
-				"パラディン"
+				{
+					"name":	"伝説のガード",
+					"pic": "auron.jpg"
+				},
+				{
+					"name":	"パラディン",
+					"pic": "paladin.jpg"
+				}
 			]
 		},
 
 		"water": {
 			"attacker": [
-				"バラムの傭兵",
-				"軍神",
-				"ジャッジマスター",
-				"魔導のジョーカー",
-				"天道士",
-				"メロウマーメイド",
-				"ヴァナディールのモンク"
+				{
+					"name":	"バラムの傭兵",
+					"pic": "squall.jpg"
+				},
+				{
+					"name":	"軍神",
+					"pic": "gunshin.jpg"
+				},
+				{
+					"name":	"ジャッジマスター",
+					"pic": "judgemaster.jpg"
+				},
+				{
+					"name":	"魔導のジョーカー",
+					"pic": "kefka.jpg"
+				},
+				{
+					"name":	"天道士",
+					"pic": "tendoushi.jpg"
+				},
+				{
+					"name":	"メロウマーメイド",
+					"pic": "mellow_mermaid.jpg"
+				},
+				{
+					"name":	"ヴァナディールのモンク",
+					"pic": "vana'diel_monk.jpg"
+				}
 			],
 			"breaker": [
-				"軍神",
-				"マテリアハンター",
-				"紅涙のエージェント",
-				"アルベドハンター"
-
+				{
+					"name":	"軍神",
+					"pic": "gunshin.jpg"
+				},
+				{
+					"name":	"マテリアハンター",
+					"pic": "yuffie.jpg"
+				},
+				{
+					"name":	"アルベドハンター",
+					"pic": "riku.jpg"
+				},
+				{
+					"name":	"紅涙のエージェント",
+					"pic": "vincent.jpg"
+				}
 			],
 			"supporter": [
-				"天道士",
-				"サンタルチア"
+				{
+					"name":	"天道士",
+					"pic": "tendoushi.jpg"
+				},
+				{
+					"name": "サンタルチア",
+					"pic": "santa_lucia.jpg"
+				}
 			],
 			"defender": [
-				"伝説の勇者",
-				"伝説のガード",
-				"パラディン"
+				{
+					"name":	"伝説の勇者",
+					"pic": "roto_hero.jpg"
+				},
+				{
+					"name":	"伝説のガード",
+					"pic": "auron.jpg"
+				},
+				{
+					"name":	"パラディン",
+					"pic": "paladin.jpg"
+				}
 			]
 		},
 
 		"earth": {
 			"attacker": [
-				"バラムの傭兵",
-				"仙術士",
-				"天道士",
-				"拳聖",
-				"さすらいの剣士"
+				{
+					"name":	"バラムの傭兵",
+					"pic": "squall.jpg"
+				},
+				{
+					"name":	"さすらいの剣士",
+					"pic": "terry.jpg"
+				},
+				{
+					"name":	"天道士",
+					"pic": "tendoushi.jpg"
+				},
+				{
+					"name":	"仙術士",
+					"pic": "hermit.jpg"
+				},
+				{
+					"name":	"拳聖",
+					"pic": "kenshin.jpg"
+				}
 			],
 			"breaker": [
-				"プラウドシグナス",
-				"マテリアハンター",
-				"プリマドンナ",
-				"オーシャンダイバー"
-
+				{
+					"name":	"プラウドシグナス",
+					"pic": "pround_cygnus.jpg"
+				},
+				{
+					"name":	"マテリアハンター",
+					"pic": "yuffie.jpg"
+				},
+				{
+					"name":	"プリマドンナ",
+					"pic": "primadonna.jpg"
+				},
+				{
+					"name": "オーシャンダイバー",
+					"pic": "ocean_driver.jpg"
+				}
 			],
 			"supporter": [
-				"サンタルチア",
-				"ヴァナ・ディールの風水士",
-				"導かれし占い師"
+				{
+					"name": "サンタルチア",
+					"pic": "santa_lucia.jpg"
+				},
+				{
+					"name":	"ヴァナ・ディールの風水士",
+					"pic": "fengsuishi_of_vana'diel.jpg"
+				},
+				{
+					"name": "導かれし占い師",
+					"pic": "meena.jpg"
+				}
 			],
 			"defender": [
-				"ヘレティックナイト",
-				"エオルゼアのナイト",
-				"拳聖"
+				{
+					"name":	"ヘレティックナイト",
+					"pic": "heretic_knight.jpg"
+				},
+				{
+					"name":	"エオルゼアのナイト",
+					"pic": "knight_of_eorzea.jpg"
+				},
+				{
+					"name":	"拳聖",
+					"pic": "kenshin.jpg"
+				}
 			]
 		},
 
 		"wind": {
 			"attacker": [
-				"魔導のジョーカー",
-				"天道士",
-				"ナイトウォーカー",
-				"伝説の武闘家",
-				"モンク",
-				"拳聖"
+				{
+					"name":	"魔導のジョーカー",
+					"pic": "kefka.jpg"
+				},
+				{
+					"name":	"天道士",
+					"pic": "tendoushi.jpg"
+				},
+				{
+					"name":	"ナイトウォーカー",
+					"pic": "nightwalker.jpg"
+				},
+				{
+					"name":	"モンク",
+					"pic": "monk.jpg"
+				},
+				{
+					"name":	"伝説の武闘家",
+					"pic": "legendary_fighter.jpg"
+				},
+				{
+					"name":	"拳聖",
+					"pic": "kenshin.jpg"
+				}
 			],
 			"breaker": [
-				"プリマドンナ",
-				"紅涙のエージェント"
+				{
+					"name":	"プリマドンナ",
+					"pic": "primadonna.jpg"
+				},
+				{
+					"name":	"紅涙のエージェント",
+					"pic": "vincent.jpg"
+				}
 			],
 			"supporter": [
-				"サンタルチア",
-				"導かれし占い師"
+				{
+					"name": "サンタルチア",
+					"pic": "santa_lucia.jpg"
+				},
+				{
+					"name": "導かれし占い師",
+					"pic": "meena.jpg"
+				}
 			],
 			"defender": [
-				"伝説のガード",
-				"ヘレティックナイト",
-				"拳聖"
+				{
+					"name":	"伝説のガード",
+					"pic": "auron.jpg"
+				},
+				{
+					"name":	"ヘレティックナイト",
+					"pic": "heretic_knight.jpg"
+				},
+				{
+					"name":	"拳聖",
+					"pic": "kenshin.jpg"
+				}
 			]
 		},
 
 		"light": {
 			"attacker": [
-				"バラムの傭兵",
-				"さすらいの剣士",
-				"魔導のジョーカー",
-				"ナイトウォーカー",
-				"拳聖"
+				{
+					"name":	"バラムの傭兵",
+					"pic": "squall.jpg"
+				},
+				{
+					"name":	"さすらいの剣士",
+					"pic": "terry.jpg"
+				},
+				{
+					"name":	"魔導のジョーカー",
+					"pic": "kefka.jpg"
+				},
+				{
+					"name":	"ナイトウォーカー",
+					"pic": "nightwalker.jpg"
+				},
+				{
+					"name": "拳聖",
+					"pic": "kenshin.jpg"
+				}
 			],
 			"breaker": [
-				"軍神",
-				"ギャンブラー",
-				"プラウドシグナス",
-				"マテリアハンター",
-				"紅涙のエージェント"
+				{
+					"name": "軍神",
+					"pic": "gunshin.jpg"
+				},
+				{
+					"name":	"ギャンブラー",
+					"pic": "gambler.jpg"
+				},
+				{
+					"name": "プラウドシグナス",
+					"pic": "pround_cygnus.jpg"
+				},
+				{
+					"name": "マテリアハンター",
+					"pic": "yuffie.jpg"
+				},
+				{
+					"name":	"紅涙のエージェント",
+					"pic": "vincent.jpg"
+				}
 			],
 			"supporter": [
-				"サンタルチア",
-				"導かれし占い師"
+				{
+					"name": "サンタルチア",
+					"pic": "santa_lucia.jpg"
+				},
+				{
+					"name": "導かれし占い師",
+					"pic": "meena.jpg"
+				}
 			],
 			"defender": [
-				"パラディン",
-				"エオルゼアのナイト"
+				{
+					"name":	"パラディン",
+					"pic": "paladin.jpg"
+				},
+				{
+					"name":	"エオルゼアのナイト",
+					"pic": "knight_of_eorzea.jpg"
+				}
 			]
 		},
 
 		"dark": {
 			"attacker": [
-				"軍神",
-				"ハイウインド",
-				"天道士",
-				"魔導のジョーカー",
-				"ヴァナディールのモンク",
-				"拳闘士",
-				"拳聖"
+				{
+					"name": "ハイウインド",
+					"pic": "highwind.jpg"
+				},
+				{
+					"name": "軍神",
+					"pic": "gunshin.jpg"
+				},
+				{
+					"name":	"天道士",
+					"pic": "tendoushi.jpg"
+				},
+				{
+					"name":	"魔導のジョーカー",
+					"pic": "kefka.jpg"
+				},
+				{
+					"name":	"拳闘士",
+					"pic": "kentoshi.jpg"
+				},
+				{
+					"name":	"ヴァナディールのモンク",
+					"pic": "vana'diel_monk.jpg"
+				},
+				{
+					"name":	"拳聖",
+					"pic": "kenshin.jpg"
+				}
 			],
 			"breaker": [
-				"軍神",
-				"プラウドシグナス"
+				{
+					"name": "軍神",
+					"pic": "gunshin.jpg"
+				},
+				{
+					"name": "プラウドシグナス",
+					"pic": "pround_cygnus.jpg"
+				}
 			],
 			"supporter": [
-				"サンタルチア",
-				"天道士"
+				{
+					"name":	"天道士",
+					"pic": "tendoushi.jpg"
+				},
+				{
+					"name": "サンタルチア",
+					"pic": "santa_lucia.jpg"
+				}
 			],
 			"defender": [
-				"エオルゼアのナイト",
-				"伝説の勇者"
+				{
+					"name":	"エオルゼアのナイト",
+					"pic": "knight_of_eorzea.jpg"
+				},
+				{
+					"name":	"伝説の勇者",
+					"pic": "roto_hero.jpg"
+				}
 			]
 		}
 	}
