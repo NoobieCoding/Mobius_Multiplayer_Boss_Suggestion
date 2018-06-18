@@ -1,4 +1,7 @@
 <UI>:
+
+  input_area: input_a
+  result_area: result_a
   canvas:
     Color:
       rgba: 0.2, 0.3, 0.8, 0.6
@@ -8,14 +11,48 @@
   orientation: "vertical"
 
   Label:
+
     font_size: 40
     font_name: "./resources/fonts/NotoSans-Bold.ttf"
     text: "Welcome to Mobius Final Fantasy Multiplayer mode job suggestion."
 
-  Label:
-    font_size: 70
-    text: "BB"
+  BoxLayout:
+    spacing: 10
+    padding: [25, 0, 25, 0]
+    id: input_a
+    orientation: "horizontal"
+
+  FloatLayout:
+    pos_hint: {'center_y': 1, 'center_x': 0.925}
+    Button:
+      pos: self.parent.pos
+      font_size: 30
+      size_hint: (0.15, 0.25)
+      background_normal: ''
+      background_color: (0.95, 0.76, 0.08, 0.9)
+      color: 0.2, 0.2, 0.2, 1
+      text: "Go"
+      on_press: root.do_search()
+
+  GridLayout:
+    id: result_a
+    cols: 2
+    font_size: 30
+    text: "Result Area"
 
   Label:
-    font_size: 70
-    text: "CinCin"
+    font_size: 40
+    font_name: "./resources/fonts/NotoSans-Bold.ttf"
+    text: "Happy Mobius Final Fantasy Kupo!!"
+
+  # Label:
+  #   font_size: 30
+  #   text: "Result Area"
+  #
+  # Label:
+  #   font_size: 30
+  #   text: "Result Area"
+  #
+  # Label:
+  #   font_size: 30
+  #   text: "Result Area"

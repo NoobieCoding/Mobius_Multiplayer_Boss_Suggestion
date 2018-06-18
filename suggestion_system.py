@@ -7,7 +7,7 @@ def suggest(element, role):
         with open('jobs.json', 'r') as f:
             jobsData = json.load(f)
     except Exception:
-        print "Can't find json file."
+        pass
 
     allSuggestedJobs = (jobsData
                         ["suggestion"]
@@ -17,6 +17,8 @@ def suggest(element, role):
 
 
 def get_suggested_jobs_name(element, role):
+    if element == '' or role == '':
+        return
     allSuggestedJobs = suggest(element, role)
     returnList = []
     for x in allSuggestedJobs:
@@ -25,6 +27,8 @@ def get_suggested_jobs_name(element, role):
 
 
 def get_suggested_pic_name(element, role):
+    if element == '' or role == '':
+        return
     allSuggestedJobs = suggest(element, role)
     returnList = []
     for x in allSuggestedJobs:
